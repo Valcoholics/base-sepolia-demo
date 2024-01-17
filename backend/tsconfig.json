@@ -1,11 +1,26 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "commonjs",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
+    // Type checking
     "strict": true,
-    "skipLibCheck": true,
-    "noImplicitAny": true
-  }
+    "noUncheckedIndexedAccess": true,
+
+    // Interop constraints
+    "verbatimModuleSyntax": false,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+
+    // Language and environment
+    "moduleResolution": "bundler",
+    "module": "ESNext",
+    "noEmit": true,
+    "lib": ["ES2022"],
+    "target": "ES2022",
+
+    // Skip type checking for node modules
+    "skipLibCheck": true
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules"]
 }

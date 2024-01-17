@@ -9,11 +9,11 @@ CLI Using tsup config: /Users/user/Desktop/VSC/base-sepolia-demo/frontend/packag
 CLI Target: node16
 ESM Build start
 CJS Build start
-ESM dist/index.mjs 11.13 KB
-ESM ⚡️ Build success in 15ms
 CJS dist/index.js 12.03 KB
-CJS ⚡️ Build success in 15ms
+CJS ⚡️ Build success in 22ms
+ESM dist/index.mjs 11.13 KB
+ESM ⚡️ Build success in 22ms
 DTS Build start
-DTS ⚡️ Build success in 1422ms
+DTS ⚡️ Build success in 2663ms
 DTS dist/index.d.mts 1.75 KB
 DTS dist/index.d.ts  1.75 KB
