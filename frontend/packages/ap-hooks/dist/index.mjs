@@ -416,7 +416,7 @@ function useOverwriteTokenData({
     abi: routerAbi,
     functionName: "overwriteTokenData",
     args: [press, data],
-    // chainId: optimismGoerli.id,
+    // chainId: baseSepolia.id,
     // BigInt(0)
     value: BigInt(5e14),
     enabled: prepareTxn

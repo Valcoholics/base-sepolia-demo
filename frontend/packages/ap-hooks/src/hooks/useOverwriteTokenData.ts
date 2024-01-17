@@ -32,7 +32,7 @@ export function useOverwriteTokenData({
     abi: routerAbi,
     functionName: 'overwriteTokenData',
     args: [press, data],
-    // chainId: optimismGoerli.id,
+    // chainId: baseSepolia.id,
     // BigInt(0)
     value: BigInt(500000000000000),
     enabled: prepareTxn,
