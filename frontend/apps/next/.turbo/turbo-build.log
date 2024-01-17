@@ -1,21 +1,33 @@
 
-> assembly-press-demo@0.0.0 build /Users/salieflewis/Desktop/public/assembly-press/frontend/apps/next
+> assembly-press-demo@0.0.0 build /Users/user/Desktop/VSC/base-sepolia-demo/frontend/apps/next
 > next build
 
-- info Loaded env from /Users/salieflewis/Desktop/public/assembly-press/frontend/apps/next/.env
-- info Creating an optimized production build...
-- info Compiled successfully
-- info Linting and checking validity of types...
-Failed to compile.
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
 
-./app/layout.tsx:3:15
-Type error: Module '"next"' has no exported member 'Metadata'. Did you mean to use 'import Metadata from "next"' instead?
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/4) ...
+   Generating static pages (1/4) 
+   Generating static pages (2/4) 
+   Generating static pages (3/4) 
+ ✓ Generating static pages (4/4) 
+   Finalizing page optimization ...
+   Collecting build traces ...
 
-[0m [90m 1 | [39m[36mimport[39m [32m'../styles/globals.css'[39m[33m;[39m[0m
-[0m [90m 2 | [39m[36mimport[39m { [33mProviders[39m } [36mfrom[39m [32m'./providers'[39m[33m;[39m[0m
-[0m[31m[1m>[22m[39m[90m 3 | [39m[36mimport[39m type { [33mMetadata[39m } [36mfrom[39m [32m'next'[39m[0m
-[0m [90m   | [39m              [31m[1m^[22m[39m[0m
-[0m [90m 4 | [39m[36mimport[39m { [33mSpace_Mono[39m } [36mfrom[39m [32m'next/font/google'[39m[33m;[39m[0m
-[0m [90m 5 | [39m[36mimport[39m localFont [36mfrom[39m [32m'next/font/local'[39m[33m;[39m[0m
-[0m [90m 6 | [39m[0m
- ELIFECYCLE  Command failed with exit code 1.
+Route (app)                              Size     First Load JS
+┌ ○ /                                    52.3 kB         553 kB
+└ ○ /_not-found                          881 B          81.9 kB
++ First Load JS shared by all            81 kB
+  ├ chunks/515-f88f8211f266e88d.js       27.7 kB
+  ├ chunks/b503d721-72461b87c166f0e0.js  51.1 kB
+  ├ chunks/main-app-4bc3be028b1bbae1.js  237 B
+  └ chunks/webpack-3d2ec9a734115861.js   2.06 kB
+
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+

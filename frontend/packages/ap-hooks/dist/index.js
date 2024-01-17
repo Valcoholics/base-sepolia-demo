@@ -365,7 +365,7 @@ var routerAbi = [
 ];
 
 // src/contracts/constants.ts
-var router = "0x7539973c756c45bf0ecc4167d6ce9750c60f903d";
+var router = "0xa3731316e2edC593f79d09ca2AEEE6451D7BFAbA";
 
 // src/hooks/useSetup.ts
 function useSetup({
