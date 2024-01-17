@@ -178,14 +178,14 @@ export const TxnSubmitter = () => {
     <Flex className='flex-col justify-between p-4 gap-8 h-[432px]'>
       {/* From --> To */}
       <div className='flex flex-wrap justify-between items-center '>
-        <a href={`https://goerli-optimism.etherscan.io/address/${address}`}>
+        <a href={`https://sepolia.basescan.org/address/${address}`}>
           <Flex className='hover:border-dark-gray  px-2 py-[2px] bg-dark-gunmetal rounded-[18px] border border-arsenic justify-center items-center w-fit'>
             {/* From:&nbsp; */}
             <BodySmall className='text-dark-gray'>{fromText()}</BodySmall>
           </Flex>
         </a>
         <ArrowRightIcon />
-        <a href={`https://goerli-optimism.etherscan.io/address/${router}`}>
+        <a href={`https://sepolia.basescan.org/address/${router}`}>
           <Flex className='hover:border-dark-gray  px-2 py-[2px] bg-dark-gunmetal rounded-[18px] border border-arsenic justify-center items-center w-fit'>
             {/* To:&nbsp; */}
             <BodySmall className='text-dark-gray'>

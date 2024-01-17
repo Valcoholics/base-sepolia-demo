@@ -67,7 +67,7 @@ const TransactionHash = ({
   rawTransactions,
   className,
 }: RawTransactionHashProps) => (
-  <a href={`https://goerli-optimism.etherscan.io/tx/${rawTransactions}`}>
+  <a href={`https://sepolia.basescan.org/tx/${rawTransactions}`}>
     <Flex className='hover:border-dark-gray  px-2 py-[2px] bg-dark-gunmetal rounded-[18px] border border-arsenic justify-center items-center w-fit'>
       <BodySmall className='text-dark-gray'>
         {rawTransactions.toString().slice(0, 10)}

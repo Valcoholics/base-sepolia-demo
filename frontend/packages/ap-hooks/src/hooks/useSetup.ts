@@ -4,7 +4,7 @@ import {
   useWaitForTransaction,
 } from "wagmi";
 import { PrepareWriteContractResult } from "wagmi/actions";
-import { optimismGoerli } from "wagmi/chains";
+import { baseSepolia } from "wagmi/chains";
 import { Hex, Hash } from "viem";
 import { routerAbi } from "../contracts/abi";
 import { router } from "../contracts/constants";
