@@ -18,7 +18,7 @@ export const config = createConfig(
   getDefaultConfig({
     alchemyId: alchemyKey as string,
     walletConnectProjectId: walletConnectID as string,
-    appName: 'Assembly Press Demo',
+    appName: 'AssemblyPress',
     autoConnect: true,
     chains,
   }),

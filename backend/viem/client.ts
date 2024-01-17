@@ -2,6 +2,7 @@ import { createPublicClient, http } from 'viem'
 import {
   mainnet,
   sepolia,
+  baseSepolia,
   optimism,
   optimismGoerli,
   zora,
@@ -21,6 +22,7 @@ const transport = http(
 const chainObject = {
   [mainnet.id]: mainnet,
   [sepolia.id]: sepolia,
+  [baseSepolia.id]: baseSepolia,
   [optimism.id]: optimism,
   [optimismGoerli.id]: optimismGoerli,
   [zora.id]: zora,
