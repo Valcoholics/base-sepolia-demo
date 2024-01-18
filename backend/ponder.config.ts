@@ -1,21 +1,20 @@
 import { createConfig } from "@ponder/core";
 import { http } from "viem";
 
-import { ExampleContractAbi } from "./abis/ExampleContractAbi";
+import { RouterAbi } from "./abis/RouterAbi";
 
 export default createConfig({
   networks: {
-    mainnet: {
-      chainId: 1,
-      transport: http(process.env.PONDER_RPC_URL_1),
+    baseSepolia: {
+      chainId: 84532,
+      transport: http(process.env.PONDER_RPC_URL_84532),
     },
   },
   contracts: {
-    ExampleContract: {
-      network: "mainnet",
-      abi: ExampleContractAbi,
-      address: "0x0",
-      startBlock: 1234567,
+    Router: {
+      abi: RouterAbi,
+      address: "0xa3731316e2edC593f79d09ca2AEEE6451D7BFAbA",
+      network: "baseSepolia",
     },
   },
 });
