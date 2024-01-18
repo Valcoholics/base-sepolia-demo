@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@ponder/core':
-    specifier: ^0.1.7
-    version: 0.1.7(@types/node@20.11.5)(typescript@5.3.3)(viem@1.21.4)
+    specifier: ^0.1.8
+    version: 0.1.8(@types/node@20.11.5)(typescript@5.3.3)(viem@1.21.4)
   viem:
     specifier: ^1.19.3
     version: 1.21.4(typescript@5.3.3)
@@ -20,8 +20,8 @@ devDependencies:
     specifier: ^8.53.0
     version: 8.56.0
   eslint-config-ponder:
-    specifier: ^0.1.7
-    version: 0.1.7(@typescript-eslint/eslint-plugin@6.19.0)(@typescript-eslint/parser@6.19.0)(eslint@8.56.0)
+    specifier: ^0.1.8
+    version: 0.1.8(@typescript-eslint/eslint-plugin@6.19.0)(@typescript-eslint/parser@6.19.0)(eslint@8.56.0)
   typescript:
     specifier: ^5.2.2
     version: 5.3.3
@@ -391,8 +391,8 @@ packages:
     dev: false
     optional: true
 
-  /@ponder/core@0.1.7(@types/node@20.11.5)(typescript@5.3.3)(viem@1.21.4):
-    resolution: {integrity: sha512-SeQuR1mxbk+KiqJs2XagNvsF8eTvwAhZTIG9ycVpLfbQDRuGnzoq1B15yU6tsrcdfGjaCHsmqUna2HJHO3fIdQ==}
+  /@ponder/core@0.1.8(@types/node@20.11.5)(typescript@5.3.3)(viem@1.21.4):
+    resolution: {integrity: sha512-9qIXN+6jZbrN3naHq021gf8U5r4S9Igwh6N0PE0BNXy4HsjbK4PcKBSFaCSq6c6aTeV++D3rLFG/nyU9UBloKg==}
     engines: {node: '>=18.14'}
     hasBin: true
     peerDependencies:
@@ -1333,8 +1333,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-ponder@0.1.7(@typescript-eslint/eslint-plugin@6.19.0)(@typescript-eslint/parser@6.19.0)(eslint@8.56.0):
-    resolution: {integrity: sha512-spwBTZNAHnSnCIAxINTg3yv/Gtm47T/CREf0fQag0O/PpmLM0ueR5p0wBaT6iLGoyKMu7F+ISohjM0WW8Aw8+w==}
+  /eslint-config-ponder@0.1.8(@typescript-eslint/eslint-plugin@6.19.0)(@typescript-eslint/parser@6.19.0)(eslint@8.56.0):
+    resolution: {integrity: sha512-RxmsN2Hcj+1xn6utePQmw1dK3bymhAdSMtd4c788NybhVKu+D5kIU6o1zwQGDEpeZBnc0VqwqBVDWB3/YYPrgQ==}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': ^6.3.0
       '@typescript-eslint/parser': ^6.3.0
