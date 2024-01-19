@@ -48,7 +48,7 @@ const satoshi = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Assembly Press | Demo',
+  title: 'Base Cube | Demo',
 };
 
 export default function RootLayout({
